@@ -69,5 +69,3 @@ Cantidad = ordenes_detalles[["Quantity","OrderId"]]
 merge_1 = pd.merge(ordenes, Cantidad, left_on='Id', right_on='OrderId')
 
 agrupado = merge_1.groupby('ShipRegion')['Quantity'].sum().reset_index(name='conteo_acomulado').sort_values(by='conteo_acomulado', ascending= False)
-
-
