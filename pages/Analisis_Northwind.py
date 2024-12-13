@@ -1,7 +1,3 @@
-import pandas as pd
-import sqlite3
-import numpy as np
-import os
 import sys
 from pathlib import Path
 import plotly.express as px

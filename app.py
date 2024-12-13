@@ -1,5 +1,5 @@
 import streamlit as st
-import plotly.express as px
+
 
 
 st.title("Análisis de la Base de Datos Northwind")  
